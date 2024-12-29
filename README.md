@@ -23,7 +23,7 @@ Programming and Data Analysis for Modern Neuroscience
 - [Statistical inference](docs/statistical-inference.md)
 
 # Time series and images
-- [Sequence and convolution](docs/sequence-convolution.md)
+- [Sequences and convolution](docs/sequences-convolution.md)
 
 # Modeling data
 - [Modeling data](docs/modeling-data.md)
