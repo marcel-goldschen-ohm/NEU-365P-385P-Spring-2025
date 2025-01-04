@@ -35,7 +35,13 @@ Working with data
 
     </details>
 
-5. <details><summary>Jan 28 T - <a href="">Tabular datasets</a></summary>
+5. <details><summary>Jan 28 T - <a href="">Random walk lab</a></summary>
+
+     - You will write a program to simulate random walks in various dimensions and with different types of boundaries.
+
+    </details>
+
+6. <details><summary>Jan 30 R - <a href="">Tabular datasets</a></summary>
 
      - You will be able to to work with tabular data sets using `pandas`.
      - You will be able to use `seaborn` and `hvplot` to create plots from a `pandas` dataframe.
@@ -45,7 +51,7 @@ Working with data
 
 Probability and random variation
 ---
-6. <details><summary>Jan 30 R - <a href="">Probability distributions</a></summary>
+7. <details><summary>Feb 4 T - <a href="">Probability distributions</a></summary>
 
      - You will understand the difference between a probability and a probability density.
      - You will understand how some basic probability distributions relate to distinct types of random behavior.
@@ -54,7 +60,7 @@ Probability and random variation
 
     </details>
 
-7. <details><summary>Feb 4 T - <a href="">Resampling</a></summary>
+8. <details><summary>Feb 6 R - <a href="">Resampling</a></summary>
 
      - You will understand the difference between a population distribution and a sampling distributuion.
      - You will appreciate that statistics for different samples are likely to vary.
@@ -67,7 +73,7 @@ Probability and random variation
 
 Model optimization
 ---
-8. <details><summary>Feb 6 R - <a href="">Curve fitting and maximum likelihood estimation (MLE)</a></summary>
+9. <details><summary>Feb 11 T - <a href="">Curve fitting and maximum likelihood estimation (MLE)</a></summary>
 
      - You will be able to fit a function to data by minimizing the residuals.
      - You will be able to fit an arbitrary probability distribution to data by maximizing the loglikelihood.
@@ -78,25 +84,20 @@ Model optimization
 
 Data series
 ---
-9. <details><summary>Feb 11 T - <a href="">Data series</a></summary>
+10. <details><summary>Feb 13 R - <a href="">Data series and convolution</a></summary>
 
      - You will appreciate that data points in sequences are correlated (unless pure noise) as opposed to independent random variables.
-      - You will be appreciate how undersampling can introduces aliasing artifacts in a sequence.
-      - You will be able to visualize the frequency power spectrum of a 1-D sequence.
-      - You will be able to visualize the frequency spectrogram of a 1-D sequence.
-
-    </details>
-
-10. <details><summary>Feb 13 R - <a href="">Convolution</a></summary>
-
+     - You will be appreciate how undersampling can introduces aliasing artifacts in a sequence.
+     - You will be able to visualize the frequency power spectrum of a 1-D sequence.
+     - You will be able to visualize the frequency spectrogram of a 1-D sequence.
      - You will understand why convolution describes a systems output based on its impulse response.
-      - You will be able to convolve two 1-D sequences.
-      - You will appreciate how convolution can be used to filter a sequence.
-      - You will be able to apply lowpass, highpass and bandpass finite impulse response (FIR) filters to a 1-D sequence.
-      - You will be able to properly downsample a 1-D sequence without introducing alisasing artifacts.
-      - You will be able to convolve two 2-D sequences (e.g., images).
-      - You will appreciate that convolution can be used to highlight features in an image.
-      - You will appreciate that the joint probability distribution resulting from adding two random variables is the convolution of their individual probability distributions.
+     - You will be able to convolve two 1-D sequences.
+     - You will appreciate how convolution can be used to filter a sequence.
+     - You will be able to apply lowpass, highpass and bandpass finite impulse response (FIR) filters to a 1-D sequence.
+     - You will be able to properly downsample a 1-D sequence without introducing alisasing artifacts.
+     - You will be able to convolve two 2-D sequences (e.g., images).
+     - You will appreciate that convolution can be used to highlight features in an image.
+     - You will appreciate that the joint probability distribution resulting from adding two random variables is the convolution of their individual probability distributions.
 
     </details>
 
@@ -198,7 +199,7 @@ Machine learning
 
     </details>
 
-20. <details><summary>Mar 27 R - <a href="">EEG and RNAseq lab</a></summary>
+20. <details><summary>Mar 27 R - <a href="">EEG and RNAseq datasets</a></summary>
 
      - You will apply PCA to EEG time series.
       - You will be able to cluster time series and visualize the clustering in a low number of PCs.
