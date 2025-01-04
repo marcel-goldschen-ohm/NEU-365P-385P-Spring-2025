@@ -16,9 +16,8 @@ These complications make it difficult to conclude anything with absolute certain
 9. Resampling (e.g., bootstrap, permutation)
 10. Hypothesis testing
     - Logical implications of assuming a null hypothesis to be true
-    - p-value (what it is and what it isn't) and rare events
+    - p-value (what it is and what it isn't) and the fact that rare events do occur (yes, even to you)
 
 Other resources of interest:
 
-- :bangbang: Pitfalls of p-values
 - :bangbang: [Misuse of statistics](https://en.wikipedia.org/wiki/Misuse_of_statistics)
