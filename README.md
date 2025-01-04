@@ -10,20 +10,21 @@ Programming and Data Analysis for Modern Neuroscience
 - [Setup your python environment](docs/setup-your-python-environment.md)
 - [Keep up-to-date with the course GitHub repository](docs/keep-up-to-date-with-this-repo.md)
 
-# Python
+# Overviews and resources
+### Python
 - [Programming rules of thumb](docs/programming-rules-of-thumb.md)
 - [Python environment overview](docs/python-environment-overview.md)
 - [Python basics](docs/python-basics.md)
 
-# Working with data
+### Working with data
 - [Python data toolkit](docs/python-data-toolkit.md)
 - [Data visualization](docs/data-visualization.md)
 
-# Dealing with uncertainty
+### Dealing with uncertainty
 - [Statistical inference](docs/statistical-inference.md)
 
-# Time series and images
+### Time series and images
 - [Sequences and convolution](docs/sequences-convolution.md)
 
-# Modeling data
+### Modeling data
 - [Modeling data](docs/modeling-data.md)
