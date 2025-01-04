@@ -103,7 +103,7 @@ Data series
 
 Exam
 ---
-11. <details><summary>Feb 18 T - <a href="">Midterm exam</a> (BPS)</summary>
+11. <details><summary>Feb 18 T - <a href="">Midterm exam</a></summary>
 
      - Cummulative exam for all topics covered up to this point.
 
