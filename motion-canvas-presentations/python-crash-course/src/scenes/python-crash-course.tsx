@@ -71,7 +71,7 @@ export default makeScene2D(function* (view) {
 
   // -------------------------------------------------------
   { titleStr = 'Python Crash Course';
-    footerStr = 'Just about everything you will need to start using Python.';
+    footerStr = 'Just about everything you will need to start using Python in 2025.';
     yield* beginSlide(titleStr);
     // clean up previous slide
     clearNodes(tmpNodes);
@@ -1145,7 +1145,7 @@ export default makeScene2D(function* (view) {
     );
 
     yield* beginSlide('');
-    yield* msg().text('').text('It probably does NOT matter which IDE you choose so long as it supports Jupyter notebooks. Any of the above should give you a comparable experience.', 1);
+    yield* msg().text('').text('It probably does NOT matter which IDE you choose so long as it supports Jupyter notebooks. Any of the above should give you a comparable experience in 2025.', 1);
 
     yield* beginSlide('');
     const screenshots = [
@@ -1159,17 +1159,96 @@ export default makeScene2D(function* (view) {
       '../../images/vscode-jupyter-extension.png',
     ].map((src, i) => {
       view.add(
-        <Img ref={screenshots[i]} src={src} height={850} margin={20} opacity={0} />
+        <Img ref={screenshots[i]} src={src} height={900} margin={20} opacity={0} />
       );
     });
     tmpNodes.push(...screenshots);
     yield* all(
       logos[0]().x(-800, 1),
       labels[0]().x(-800, 1),
+      labels[0]().text('Visual\nStudio\nCode\nin 2025', 1),
       ...logos.slice(1).map((logo) => logo().opacity(0, 1)),
       ...labels.slice(1).map((label) => label().opacity(0, 1)),
       msg().opacity(0, 1),
       screenshots[0]().opacity(1, 1),
+    );
+
+    yield* beginSlide('');
+    yield* footerTxt().text('').opacity(1).text('For VSCode, you will need the Python and Jupyter extensions.', 1);
+    const circle = createRef<Circle>();
+    view.add(
+      <Circle ref={circle} lineWidth={10} stroke={UT_BURNT_ORANGE} startAngle={-180} endAngle={180} zIndex={2} opacity={0} />
+    );
+    tmpNodes.push(circle);
+    circle().x(-579);
+    circle().y(-133);
+    circle().width(60);
+    circle().height(60);
+    yield* circle().endAngle(-180).opacity(1).endAngle(180, 0.5);
+    yield* waitFor(1);
+    yield* all(
+      screenshots[0]().opacity(0, 1),
+      screenshots[1]().opacity(1, 1),
+    );
+
+    yield* beginSlide('');
+    yield* all(
+      screenshots[1]().opacity(0, 1),
+      screenshots[2]().opacity(1, 1),
+    );
+
+    yield* beginSlide('');
+    yield* all(
+      circle().opacity(0, 1),
+      screenshots[2]().opacity(0, 1),
+      screenshots[0]().opacity(1, 1),
+    );
+    yield* footerTxt().text('').opacity(1).text('Select your active Python environment.', 1);
+    circle().x(430);
+    circle().y(360);
+    circle().width(230);
+    circle().height(55);
+    yield* circle().endAngle(-180).opacity(1).endAngle(180, 0.5);
+  }
+
+  // -------------------------------------------------------
+  { titleStr = 'Learning Goals';
+    footerStr = '[]';
+    yield* beginSlide(titleStr);
+    // clean up previous slide
+    clearNodes(tmpNodes);
+    clearLayout(mainLayout());
+    // footer there but invisible
+    footerTxt().opacity(0).text(footerStr);
+    // write title
+    yield* titleTxt().text('').text(titleStr, 1);
+    // content
+    mainLayout().direction('column');
+    const bmiImg = createRef<Img>();
+    mainLayout().add(
+      <Img ref={bmiImg} src={'../../images/logos/brain-machine-interface-logo.png'} height={150} margin={20} opacity={0} />
+    );
+    const goalsLayout = createRef<Layout>();
+    mainLayout().add(
+      <Layout ref={goalsLayout} grow={1}  direction={'column'} justifyContent={'start'} alignItems={'start'} padding={40} gap={40}></Layout>
+    );
+    const goals: Reference<Txt>[] = [];
+    for (let i = 0; i < learningGoals.length; i++) {
+      goals.push(createRef<Txt>());
+      goalsLayout().add(
+        <Txt ref={goals[i]} text={learningGoals[i]} fontSize={60} textWrap={true} opacity={0} />
+      );
+    }
+    yield* all(
+      bmiImg().opacity(1, 1),
+      ...goals.map((goal) => goal().opacity(0.1, 1)),
+    );
+    yield* goals[0]().opacity(1, 1);
+
+    yield* beginSlide('');
+    yield* all(
+      goals[0]().opacity(0.1, 1),
+      goals[1]().opacity(1, 1),
     );
   }
 
