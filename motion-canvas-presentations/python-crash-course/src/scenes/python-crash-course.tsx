@@ -484,7 +484,7 @@ export default makeScene2D(function* (view) {
     const installLayout = createRef<Layout>();
     mainLayout().add(
       <Layout ref={installLayout} direction={'column'} justifyContent={'center'} alignItems={'center'} width={'45%'} padding={25} opacity={0}>
-        <Txt text={'I recommend installing'} fontSize={56} />
+        <Txt text={'In 2025, I recommend installing'} fontSize={56} />
         <Txt.b text={'miniforge'} fontSize={56} fill={UT_BURNT_ORANGE} margin={10} />
         <Txt text={'which includes conda.'} fontSize={56} />
       </Layout>
@@ -1084,6 +1084,7 @@ export default makeScene2D(function* (view) {
   }
 
   // -------------------------------------------------------
+  // TODO: videos of VSCode actions
   { titleStr = 'Integrated Development Environments (IDEs)';
     footerStr = '[]';
     yield* beginSlide(titleStr);
@@ -1209,6 +1210,21 @@ export default makeScene2D(function* (view) {
     circle().width(230);
     circle().height(55);
     yield* circle().endAngle(-180).opacity(1).endAngle(180, 0.5);
+  }
+
+  // -------------------------------------------------------
+  // TODO: videos of jupyter notebook actions in VSCode
+  { titleStr = 'Jupyter Notebooks';
+    footerStr = '[]';
+    yield* beginSlide(titleStr);
+    // clean up previous slide
+    clearNodes(tmpNodes);
+    clearLayout(mainLayout());
+    // footer there but invisible
+    footerTxt().opacity(0).text(footerStr);
+    // write title
+    yield* titleTxt().text('').text(titleStr, 1);
+    // content
   }
 
   // -------------------------------------------------------

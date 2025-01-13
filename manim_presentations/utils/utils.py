@@ -1,7 +1,7 @@
 from manim import *
 from manim_slides import Slide
-from neu365p.utils.config import *
-from neu365p.utils.DynamicCode import DynamicCode
+from manim_presentations.utils.config import *
+from manim_presentations.utils.DynamicCode import DynamicCode
 
 class DefaultSlide(Slide):
     def __init__(self, *args, **kwargs):

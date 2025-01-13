@@ -1,0 +1,25 @@
+[project]
+name = "manim-presentations"
+description = "Programming and data analysis for modern neuroscience"
+version = "0.0.1"
+authors = [
+    {name = "Marcel Goldschen-Ohm", email = "goldschen-ohm@utexas.edu"},
+]
+requires-python = "<3.13"
+dependencies = [
+]
+readme = "README.md"
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Education",
+    "Programming Language :: Python :: 3 :: Only",
+    "Natural Language :: English",
+    "Topic :: Education",
+    "Topic :: Scientific/Engineering",
+]
+
+
+[project.urls]
+homepage = "https://github.com/marcel-goldschen-ohm/NEU-365P-385P-Spring-2025"
+repository = "https://github.com/marcel-goldschen-ohm/NEU-365P-385P-Spring-2025"
+issues = "https://github.com/marcel-goldschen-ohm/NEU-365P-385P-Spring-2025/issues"

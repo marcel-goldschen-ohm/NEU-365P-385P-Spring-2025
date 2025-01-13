@@ -1,5 +1,5 @@
 from manim import *
-from neu365p.utils import *
+from manim_presentations.utils import *
 from manim import config
 
 SKIPA = False
@@ -19,7 +19,7 @@ class PythonCrashCourse(DefaultSlide):
         super().construct()
         self.init_title("Python Crash Course")
         python_logo = ImageMobject("images/python-logo").set(height=2.5)
-        subtitle = Text("Just about everything you will need to start leveraging Python.", **TEXT_BODY_STYLE)
+        subtitle = Text("Just about everything you will need to start using Python in 2025.", **TEXT_BODY_STYLE)
         subtitle.to_edge(DOWN)
 
         self.show_title()
@@ -1065,14 +1065,14 @@ class LearningGoals1(DefaultSlide):
         self.wait()
 
 
-class BasicDataTypes(BasicSlide):
+class BasicDataTypes(DefaultSlide):
     def construct(self):
         super().construct()
         self.init_title("Basic Data Types")
         types = ["bool", "int", "float", "str", "None"]
         examples = ["True, False", "-1, 0, 100", "-3.14, 0.0, 8e2", "\"Hello world!\", 'Neuro rocks', \"Hi y'all.\"", "None"]
         types = [Text(type, **TEXT_BODY_STYLE).set(color=UT_BURNT_ORANGE) for type in types]
-        examples = [Code(code=example, **CODE_STYLE) for example in examples]
+        examples = [DynamicCode(code=example, **CODE_STYLE) for example in examples]
         
         for i in range(1, len(examples)):
             examples[i].next_to(examples[i-1], DOWN, aligned_edge=LEFT)
@@ -1086,7 +1086,7 @@ class BasicDataTypes(BasicSlide):
         self.wait()
 
 
-class BasicOperations(BasicSlide):
+class BasicOperations(DefaultSlide):
     def construct(self):
         super().construct()
         self.init_title("Basic Operations")
@@ -1113,7 +1113,7 @@ class BasicOperations(BasicSlide):
         self.wait()
 
 
-class TypeAwareOperations(BasicSlide):
+class TypeAwareOperations(DefaultSlide):
     def construct(self):
         super().construct()
         self.init_title("Type Aware Operations")
@@ -1121,7 +1121,7 @@ class TypeAwareOperations(BasicSlide):
         self.wait()
 
 
-class LogicalComparisons(BasicSlide):
+class LogicalComparisons(DefaultSlide):
     def construct(self):
         super().construct()
         self.init_title("Logical Comparisons")
@@ -1129,7 +1129,7 @@ class LogicalComparisons(BasicSlide):
         self.wait()
 
 
-class Variables(BasicSlide):
+class Variables(DefaultSlide):
     def construct(self):
         super().construct()
         self.init_title("Variables")
@@ -1137,7 +1137,7 @@ class Variables(BasicSlide):
         self.wait()
 
 
-class NamingThings(BasicSlide):
+class NamingThings(DefaultSlide):
     def construct(self):
         super().construct()
         self.init_title("Naming Things")
@@ -1147,7 +1147,7 @@ class NamingThings(BasicSlide):
         self.wait()
 
 
-class SpecialNamingPatterns(BasicSlide):
+class SpecialNamingPatterns(DefaultSlide):
     def construct(self):
         super().construct()
         self.init_title("Special Naming Patterns")
@@ -1155,7 +1155,7 @@ class SpecialNamingPatterns(BasicSlide):
         self.wait()
 
 
-class ShorthandOperations(BasicSlide):
+class ShorthandOperations(DefaultSlide):
     def construct(self):
         super().construct()
         self.init_title("Shorthand Operations")
@@ -1163,7 +1163,7 @@ class ShorthandOperations(BasicSlide):
         self.wait()
 
 
-class Output(BasicSlide):
+class Output(DefaultSlide):
     def construct(self):
         super().construct()
         self.init_title("Output")
@@ -1171,7 +1171,7 @@ class Output(BasicSlide):
         self.wait()
 
 
-class Whitespace(BasicSlide):
+class Whitespace(DefaultSlide):
     def construct(self):
         super().construct()
         self.init_title("Whitespace")
@@ -1179,7 +1179,7 @@ class Whitespace(BasicSlide):
         self.wait()
 
 
-class Comments(BasicSlide):
+class Comments(DefaultSlide):
     def construct(self):
         super().construct()
         self.init_title("Comments")
@@ -1187,7 +1187,7 @@ class Comments(BasicSlide):
         self.wait()
 
 
-class MultiLineStrings(BasicSlide):
+class MultiLineStrings(DefaultSlide):
     def construct(self):
         super().construct()
         self.init_title("Multi-Line Strings")
@@ -1195,7 +1195,7 @@ class MultiLineStrings(BasicSlide):
         self.wait()
 
 
-class FormatStrings(BasicSlide):
+class FormatStrings(DefaultSlide):
     def construct(self):
         super().construct()
         self.init_title("Format Strings")
@@ -1203,7 +1203,7 @@ class FormatStrings(BasicSlide):
         self.wait()
 
 
-class UnderstandableCode(BasicSlide):
+class UnderstandableCode(DefaultSlide):
     def construct(self):
         super().construct()
         self.init_title("Understandable Code")
@@ -1214,7 +1214,7 @@ class UnderstandableCode(BasicSlide):
         self.wait()
 
 
-class ConditionalCodeBlocks(BasicSlide):
+class ConditionalCodeBlocks(DefaultSlide):
     def construct(self):
         super().construct()
         self.init_title("Conditional Code Blocks")
@@ -1222,7 +1222,7 @@ class ConditionalCodeBlocks(BasicSlide):
         self.wait()
 
 
-class NestedCodeBlocks(BasicSlide):
+class NestedCodeBlocks(DefaultSlide):
     def construct(self):
         super().construct()
         self.init_title("Nested Code Blocks")
@@ -1230,7 +1230,7 @@ class NestedCodeBlocks(BasicSlide):
         self.wait()
 
 
-class Lists(BasicSlide):
+class Lists(DefaultSlide):
     def construct(self):
         super().construct()
         self.init_title("Lists")
@@ -1238,7 +1238,7 @@ class Lists(BasicSlide):
         self.wait()
 
 
-class ListUnpacking(BasicSlide):
+class ListUnpacking(DefaultSlide):
     def construct(self):
         super().construct()
         self.init_title("List Unpacking")
@@ -1246,7 +1246,7 @@ class ListUnpacking(BasicSlide):
         self.wait()
 
 
-class ListIndexing(BasicSlide):
+class ListIndexing(DefaultSlide):
     def construct(self):
         super().construct()
         self.init_title("List Indexing")
@@ -1254,7 +1254,7 @@ class ListIndexing(BasicSlide):
         self.wait()
 
 
-class ListSlicing(BasicSlide):
+class ListSlicing(DefaultSlide):
     def construct(self):
         super().construct()
         self.init_title("List Slicing")
@@ -1262,7 +1262,7 @@ class ListSlicing(BasicSlide):
         self.wait()
 
 
-class ListSliceDefaults(BasicSlide):
+class ListSliceDefaults(DefaultSlide):
     def construct(self):
         super().construct()
         self.init_title("List Slice Defaults")
@@ -1270,7 +1270,7 @@ class ListSliceDefaults(BasicSlide):
         self.wait()
 
 
-class MutatingLists(BasicSlide):
+class MutatingLists(DefaultSlide):
     def construct(self):
         super().construct()
         self.init_title("Mutating Lists")
@@ -1278,7 +1278,7 @@ class MutatingLists(BasicSlide):
         self.wait()
 
 
-class NestedLists(BasicSlide):
+class NestedLists(DefaultSlide):
     def construct(self):
         super().construct()
         self.init_title("Nested Lists")
@@ -1286,7 +1286,7 @@ class NestedLists(BasicSlide):
         self.wait()
 
 
-class Dictionaries(BasicSlide):
+class Dictionaries(DefaultSlide):
     def construct(self):
         super().construct()
         self.init_title("Dictionaries")
@@ -1294,7 +1294,7 @@ class Dictionaries(BasicSlide):
         self.wait()
 
 
-class MutatingDictionaries(BasicSlide):
+class MutatingDictionaries(DefaultSlide):
     def construct(self):
         super().construct()
         self.init_title("Mutating Dictionaries")
@@ -1302,7 +1302,7 @@ class MutatingDictionaries(BasicSlide):
         self.wait()
 
 
-class AssignmentVsMutation(BasicSlide):
+class AssignmentVsMutation(DefaultSlide):
     def construct(self):
         super().construct()
         self.init_title("Assignment vs Mutation")
@@ -1310,7 +1310,7 @@ class AssignmentVsMutation(BasicSlide):
         self.wait()
 
 
-class IteratingCollections(BasicSlide):
+class IteratingCollections(DefaultSlide):
     def construct(self):
         super().construct()
         self.init_title("Iterating Collections")
@@ -1318,7 +1318,7 @@ class IteratingCollections(BasicSlide):
         self.wait()
 
 
-class IterateUntilCondition(BasicSlide):
+class IterateUntilCondition(DefaultSlide):
     def construct(self):
         super().construct()
         self.init_title("Iterate Until Condition")
@@ -1326,7 +1326,7 @@ class IterateUntilCondition(BasicSlide):
         self.wait()
 
 
-class StoppingAndSkipping(BasicSlide):
+class StoppingAndSkipping(DefaultSlide):
     def construct(self):
         super().construct()
         self.init_title("Stopping and Skipping")
@@ -1334,7 +1334,7 @@ class StoppingAndSkipping(BasicSlide):
         self.wait()
 
 
-class ListComprehensions(BasicSlide):
+class ListComprehensions(DefaultSlide):
     def construct(self):
         super().construct()
         self.init_title("List Comprehensions")
@@ -1342,7 +1342,7 @@ class ListComprehensions(BasicSlide):
         self.wait()
 
 
-class DictionaryComprehensions(BasicSlide):
+class DictionaryComprehensions(DefaultSlide):
     def construct(self):
         super().construct()
         self.init_title("Dictionary Comprehensions")
@@ -1350,7 +1350,7 @@ class DictionaryComprehensions(BasicSlide):
         self.wait()
 
 
-class Generators(BasicSlide):
+class Generators(DefaultSlide):
     def construct(self):
         super().construct()
         self.init_title("Generators")
@@ -1358,7 +1358,7 @@ class Generators(BasicSlide):
         self.wait()
 
 
-class Functions(BasicSlide):
+class Functions(DefaultSlide):
     def construct(self):
         super().construct()
         self.init_title("Functions")
@@ -1366,7 +1366,7 @@ class Functions(BasicSlide):
         self.wait()
 
 
-class FunctionOutput(BasicSlide):
+class FunctionOutput(DefaultSlide):
     def construct(self):
         super().construct()
         self.init_title("Function Output")
@@ -1374,7 +1374,7 @@ class FunctionOutput(BasicSlide):
         self.wait()
 
 
-class DefaultFunctionArguments(BasicSlide):
+class DefaultFunctionArguments(DefaultSlide):
     def construct(self):
         super().construct()
         self.init_title("Default Function Arguments")
@@ -1382,7 +1382,7 @@ class DefaultFunctionArguments(BasicSlide):
         self.wait()
 
 
-class NamedFunctionArguments(BasicSlide):
+class NamedFunctionArguments(DefaultSlide):
     def construct(self):
         super().construct()
         self.init_title("Named Function Arguments")
@@ -1390,7 +1390,7 @@ class NamedFunctionArguments(BasicSlide):
         self.wait()
 
 
-class ArgsAndKwargs(BasicSlide):
+class ArgsAndKwargs(DefaultSlide):
     def construct(self):
         super().construct()
         self.init_title("args and kwargs")
@@ -1398,7 +1398,7 @@ class ArgsAndKwargs(BasicSlide):
         self.wait()
 
 
-class VariableScope(BasicSlide):
+class VariableScope(DefaultSlide):
     def construct(self):
         super().construct()
         self.init_title("Variable Scope")
@@ -1406,7 +1406,7 @@ class VariableScope(BasicSlide):
         self.wait()
 
 
-class Classes(BasicSlide):
+class Classes(DefaultSlide):
     def construct(self):
         super().construct()
         self.init_title("Classes")
@@ -1414,7 +1414,7 @@ class Classes(BasicSlide):
         self.wait()
 
 
-class ClassTemplateVsInstance(BasicSlide):
+class ClassTemplateVsInstance(DefaultSlide):
     def construct(self):
         super().construct()
         self.init_title("Class Template vs Instance")
@@ -1422,7 +1422,7 @@ class ClassTemplateVsInstance(BasicSlide):
         self.wait()
 
 
-class ClassTemplateAttributes(BasicSlide):
+class ClassTemplateAttributes(DefaultSlide):
     def construct(self):
         super().construct()
         self.init_title("Class Template Attributes")
@@ -1430,7 +1430,7 @@ class ClassTemplateAttributes(BasicSlide):
         self.wait()
 
 
-class ClassInstanceSpecificAttributes(BasicSlide):
+class ClassInstanceSpecificAttributes(DefaultSlide):
     def construct(self):
         super().construct()
         self.init_title("Class Instance-Specific Attributes")
@@ -1438,7 +1438,7 @@ class ClassInstanceSpecificAttributes(BasicSlide):
         self.wait()
 
 
-class ClassMethods(BasicSlide):
+class ClassMethods(DefaultSlide):
     def construct(self):
         super().construct()
         self.init_title("Class Methods")
@@ -1446,7 +1446,7 @@ class ClassMethods(BasicSlide):
         self.wait()
 
 
-class ClassInheritance(BasicSlide):
+class ClassInheritance(DefaultSlide):
     def construct(self):
         super().construct()
         self.init_title("Class Inheritance")
@@ -1454,7 +1454,7 @@ class ClassInheritance(BasicSlide):
         self.wait()
 
 
-class OnlyUseClassesWhenNecessary(BasicSlide):
+class OnlyUseClassesWhenNecessary(DefaultSlide):
     def construct(self):
         super().construct()
         self.init_title("!! Only Use Classes When Necessary")
@@ -1462,7 +1462,7 @@ class OnlyUseClassesWhenNecessary(BasicSlide):
         self.wait()
 
 
-class Modules(BasicSlide):
+class Modules(DefaultSlide):
     def construct(self):
         super().construct()
         self.init_title("Modules")
@@ -1470,7 +1470,7 @@ class Modules(BasicSlide):
         self.wait()
 
 
-class NestedModules(BasicSlide):
+class NestedModules(DefaultSlide):
     def construct(self):
         super().construct()
         self.init_title("Nested Modules")
@@ -1478,7 +1478,7 @@ class NestedModules(BasicSlide):
         self.wait()
 
 
-class Packages(BasicSlide):
+class Packages(DefaultSlide):
     def construct(self):
         super().construct()
         self.init_title("Packages")
@@ -1486,7 +1486,7 @@ class Packages(BasicSlide):
         self.wait()
 
 
-class PythonCrashCourseLearningGoals2(BasicSlide):
+class PythonCrashCourseLearningGoals2(DefaultSlide):
     def construct(self):
         super().construct()
         self.init_title("Learning Goals")
@@ -1512,9 +1512,9 @@ if __name__ == "__main__":
     for node in ast.walk(parsed):
         if isinstance(node, ast.Expr) and hasattr(node.value, "value") and node.value.value == "r":
             render = True
-        if isinstance(node, ast.ClassDef) and node.name not in ["BasicSlide"]:
+        if isinstance(node, ast.ClassDef) and node.name not in ["DefaultSlide"]:
             for base in node.bases:
-                if isinstance(base, ast.Name) and base.id in ["BasicSlide", "Slide"]:
+                if isinstance(base, ast.Name) and base.id in ["DefaultSlide", "Slide"]:
                     slides.append(node.name)
                     if render:
                         slides_to_render.append(node.name)
