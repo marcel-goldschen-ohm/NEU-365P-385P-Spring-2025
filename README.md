@@ -1,16 +1,16 @@
 # NEU-365P-385P-Spring-2025
 Programming and Data Analysis for Modern Neuroscience
 
-# Course info
+## Course info
 - [Course info](docs/course-info.md)
 - [Discussion board](docs/discussion-board.md)
 - [Syllabus](docs/syllabus.md)
 
-# Setup
+## Setup
 - [Setup your python environment](docs/setup-your-python-environment.md)
 - [Keep up-to-date with the course GitHub repository](docs/keep-up-to-date-with-this-repo.md)
 
-# Overviews and resources
+## Overviews and Resources
 ### Python
 - [Programming rules of thumb](docs/programming-rules-of-thumb.md)
 - [Python environment overview](docs/python-environment-overview.md)
@@ -28,3 +28,6 @@ Programming and Data Analysis for Modern Neuroscience
 
 ### Modeling data
 - [Modeling data](docs/modeling-data.md)
+
+---
+*Random [notes](docs/notes.md) for myself.*

@@ -1,0 +1,29 @@
+{
+  "name": "test-motion-canvas",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "start": "vite",
+    "serve": "vite",
+    "build": "tsc && vite build"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.26.0",
+    "@hhenrichsen/canvas-commons": "^0.10.2",
+    "@lezer/javascript": "^1.4.19",
+    "@lezer/python": "^1.1.14",
+    "@motion-canvas/2d": "^3.17.1",
+    "@motion-canvas/core": "^3.17.0",
+    "@motion-canvas/ffmpeg": "^1.1.0",
+    "@uiw/codemirror-theme-github": "^4.23.6",
+    "@uiw/codemirror-theme-material": "^4.23.6",
+    "@uiw/codemirror-theme-solarized": "^4.23.6",
+    "@uiw/codemirror-themes": "^4.23.6"
+  },
+  "devDependencies": {
+    "@motion-canvas/ui": "^3.17.0",
+    "@motion-canvas/vite-plugin": "^3.17.0",
+    "typescript": "^5.2.2",
+    "vite": "^4.0.0"
+  }
+}
