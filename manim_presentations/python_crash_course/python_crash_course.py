@@ -1072,12 +1072,12 @@ class BasicDataTypes(DefaultSlide):
         types = ["bool", "int", "float", "str", "None"]
         examples = ["True, False", "-1, 0, 100", "-3.14, 0.0, 8e2", "\"Hello world!\", 'Neuro rocks', \"Hi y'all.\"", "None"]
         types = [Text(type, **TEXT_BODY_STYLE).set(color=UT_BURNT_ORANGE) for type in types]
-        examples = [DynamicCode(code=example, **CODE_STYLE) for example in examples]
-        
-        for i in range(1, len(examples)):
-            examples[i].next_to(examples[i-1], DOWN, aligned_edge=LEFT)
-        for i in range(len(types)):
-            types[i].next_to(examples[i], LEFT)
+        self.add(*types)
+        examples = [Code(code=example, **CODE_STYLE) for example in examples]
+
+        VGroup(*types).arrange(DOWN, buff=0.75, aligned_edge=RIGHT)
+        for i in range(len(examples)):
+            examples[i].next_to(types[i], RIGHT, aligned_edge=LEFT)
         group = VGroup(*types, *examples)
         group.next_to(self.title, DOWN, buff=0.5)
         

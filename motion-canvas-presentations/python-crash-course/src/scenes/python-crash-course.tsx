@@ -1269,6 +1269,72 @@ export default makeScene2D(function* (view) {
   }
 
   // -------------------------------------------------------
+  // { titleStr = 'Basic Data Types';
+  //   footerStr = '[]';
+  //   yield* beginSlide(titleStr);
+  //   // clean up previous slide
+  //   clearNodes(tmpNodes);
+  //   clearLayout(mainLayout());
+  //   // footer there but invisible
+  //   footerTxt().opacity(0).text(footerStr);
+  //   // write title
+  //   yield* titleTxt().text('').text(titleStr, 1);
+  //   // content
+  //   const types = [
+  //     "bool",
+  //     "int",
+  //     "float",
+  //     "str",
+  //     "None"
+  //   ]
+  //   const typeRefs = types.map((type) => createRef<Txt>());
+  //   const examples = [
+  //     "True, False",
+  //     "-1, 0, 100",
+  //     "-3.14, 0.0, 8e2",
+  //     "\"Hello world!\", 'Neuro rocks', \"Hi y'all.\"",
+  //     "None"
+  //   ]
+  //   const exampleRefs = examples.map((example) => createRef<Code>());
+  //   var exampleLayouts = [];
+  //   mainLayout().direction('column').alignItems('start');
+  //   for (let i = 0; i < types.length; i++) {
+  //     exampleLayouts.push(createRef<Layout>());
+  //     mainLayout().add(
+  //       <Layout ref={exampleLayouts[i]} direction={'row'} justifyContent={'start'} alignItems={'center'} padding={40} gap={40}>
+  //         <Txt text={types[i]} fontSize={56} width={250} textAlign={'right'} />
+  //         <Code code={examples[i]} fontSize={56} />
+  //       </Layout>
+  //     );
+  //   }
+  // }
+
+  // -------------------------------------------------------
+//   { titleStr = 'Test Code';
+//     footerStr = '[]';
+//     yield* beginSlide(titleStr);
+//     // clean up previous slide
+//     clearNodes(tmpNodes);
+//     clearLayout(mainLayout());
+//     // footer there but invisible
+//     footerTxt().opacity(0).text(footerStr);
+//     // write title
+//     yield* titleTxt().text('').text(titleStr, 1);
+//     // content
+//     const code = createRef<Code>();
+//     mainLayout().add(
+//       <Code ref={code} code={`\
+// x = 3 + 4
+// s = "hi"
+// y = [0, 1, 2]
+// def test_add():
+//     # add
+//     assert add(1, 2) == 34
+// `} fontSize={56} />
+//     );
+//   }
+
+  // -------------------------------------------------------
   yield* beginSlide('END');
 
 });

@@ -1,4 +1,3 @@
-
 # UT color palette: https://brand.utexas.edu/identity/color/
 UT_BURNT_ORANGE = "#bf5700"
 UT_ORANGE = "#f8971f"
@@ -11,7 +10,6 @@ UT_GRAY = "#9cadb7"
 UT_TAN = "#d6d2c4"
 UT_DARK_GRAY = "#333f48"
 UT_LIGHT_GRAY = "#F4F6F7" # not technically part of the UT color palette
-UT_BLACK = "#000000" # not technically part of the UT color palette
 
 # Adobe UT color palette
 UT_ADOBE_BURNT_ORANGE = "#bf5700"
@@ -21,7 +19,7 @@ UT_ADOBE_DARK_GREEN = "#43695b"
 UT_ADOBE_CREAM = "#d6d2c4"
 
 BG_COLOR = UT_ADOBE_CREAM
-FG_COLOR = UT_BLACK
+FG_COLOR = "#000000"
 
 MARGIN = 0.35
 
@@ -44,13 +42,14 @@ TEXT_TITLE_STYLE = {
     'line_spacing': 0.7,
 }
 
+#'Iosevka', 'Monospace', 'Consolas', 'Inconsolata', 'Fira Code', 'Hack', 'DejaVu Sans Mono'
 CODE_STYLE = {
     'language': "python",
     'style': "colorful",
     'insert_line_no': False,
-    'font': 'Monospace', #'Iosevka', 'Monospace', 'Consolas', 'Inconsolata', 'Fira Code', 'Hack', 'DejaVu Sans Mono'
+    'font': 'Monospace', 
     'font_size': 20,
-    'background_stroke_color': UT_BLACK,
+    'background_stroke_color': "#000000",
     'line_spacing': 0.7,
     'margin': 0.2,
 }
@@ -59,9 +58,9 @@ SHELL_STYLE = {
     'language': "python",
     'style': "bw",
     'insert_line_no': False,
-    'font': 'Monospace', #'Iosevka', 'Monospace', 'Consolas', 'Inconsolata', 'Fira Code', 'Hack', 'DejaVu Sans Mono'
+    'font': 'Monospace',
     'font_size': 20,
-    'background_stroke_color': UT_BLACK,
+    'background_stroke_color': "#000000",
     'line_spacing': 0.7,
     'margin': 0.2,
 }
