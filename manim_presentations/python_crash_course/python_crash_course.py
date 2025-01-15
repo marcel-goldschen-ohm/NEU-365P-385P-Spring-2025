@@ -1077,9 +1077,8 @@ class BasicDataTypes(DefaultSlide):
 
         VGroup(*types).arrange(DOWN, buff=0.75, aligned_edge=RIGHT)
         for i in range(len(examples)):
-            examples[i].next_to(types[i], RIGHT, aligned_edge=LEFT)
-        group = VGroup(*types, *examples)
-        group.next_to(self.title, DOWN, buff=0.5)
+            examples[i].next_to(types[i], RIGHT, buff=0.75)
+        VGroup(*types, *examples).next_to(self.title, DOWN, buff=0.5)
         
         self.show_title()
         self.play(*[Write(type) for type in types], *[FadeIn(example) for example in examples])
