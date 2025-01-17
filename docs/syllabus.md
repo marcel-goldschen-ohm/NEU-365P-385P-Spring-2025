@@ -279,7 +279,7 @@ Neural networks
 
 Exam
 ---
-29. <details><summary>May ?? ? - <a href="">Final exam</a></summary>
+29. <details><summary>May (as scheduled by the University) - <a href="">Final exam</a></summary>
 
      - Cummulative exam for the entire semester, but will focus more on the topics covered after the midterm exam.
 
