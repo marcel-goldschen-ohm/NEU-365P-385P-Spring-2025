@@ -17,7 +17,11 @@ Python crash course
 
     </details>
 
-3. <details><summary>Jan 21 T - <a href="">Python basics 3</a></summary>
+3. <details><summary>Jan 21 T - CANCELED DUE TO WINTER STORM</summary>
+
+    </details>
+
+4. <details><summary>Jan 23 R - <a href="">Python basics 3</a></summary>
 
      - You will understand all the basic python syntax needed to start using python for real projects.
 
@@ -25,7 +29,7 @@ Python crash course
 
 Working with data
 ---
-4. <details><summary>Jan 23 R - <a href="">Data arrays and plots</a></summary>
+5. <details><summary>Jan 28 T - <a href="">Data arrays and plots</a></summary>
 
      - You will appreciate that many types of data can be represented as N-dimensional arrays.
      - You will understand how to work with `numpy` N-dimensional arrays.
@@ -35,13 +39,13 @@ Working with data
 
     </details>
 
-5. <details><summary>Jan 28 T - <a href="">Random walk lab</a></summary>
+6. <details><summary>Jan 30 R - <a href="">Random walk lab</a></summary>
 
      - You will write a program to simulate random walks in various dimensions and with different types of boundaries.
 
     </details>
 
-6. <details><summary>Jan 30 R - <a href="">Tabular datasets</a></summary>
+7. <details><summary>Feb 4 T - <a href="">Tabular datasets</a></summary>
 
      - You will be able to to work with tabular data sets using `pandas`.
      - You will be able to use `seaborn` and `hvplot` to create plots from a `pandas` dataframe.
@@ -51,7 +55,7 @@ Working with data
 
 Probability and random variation
 ---
-7. <details><summary>Feb 4 T - <a href="">Probability distributions</a></summary>
+8. <details><summary>Feb 6 R - <a href="">Probability distributions</a></summary>
 
      - You will understand the difference between a probability and a probability density.
      - You will understand how some basic probability distributions relate to distinct types of random behavior.
@@ -60,7 +64,7 @@ Probability and random variation
 
     </details>
 
-8. <details><summary>Feb 6 R - <a href="">Resampling</a></summary>
+9. <details><summary>Feb 11 T - <a href="">Resampling</a></summary>
 
      - You will understand the difference between a population distribution and a sampling distributuion.
      - You will appreciate that statistics for different samples are likely to vary.
@@ -73,31 +77,12 @@ Probability and random variation
 
 Model optimization
 ---
-9. <details><summary>Feb 11 T - <a href="">Curve fitting and maximum likelihood estimation (MLE)</a></summary>
+10. <details><summary>Feb 13 R - <a href="">Curve fitting and maximum likelihood estimation (MLE)</a></summary>
 
      - You will be able to fit a function to data by minimizing the residuals.
      - You will be able to fit an arbitrary probability distribution to data by maximizing the loglikelihood.
      - You will understand the concept of gradient descent minimization.
      - You will appreciate the difference between local and global optimization.
-
-    </details>
-
-Data series
----
-10. <details><summary>Feb 13 R - <a href="">Data series and convolution</a></summary>
-
-     - You will appreciate that data points in sequences are correlated (unless pure noise) as opposed to independent random variables.
-     - You will be appreciate how undersampling can introduces aliasing artifacts in a sequence.
-     - You will be able to visualize the frequency power spectrum of a 1-D sequence.
-     - You will be able to visualize the frequency spectrogram of a 1-D sequence.
-     - You will understand why convolution describes a systems output based on its impulse response.
-     - You will be able to convolve two 1-D sequences.
-     - You will appreciate how convolution can be used to filter a sequence.
-     - You will be able to apply lowpass, highpass and bandpass finite impulse response (FIR) filters to a 1-D sequence.
-     - You will be able to properly downsample a 1-D sequence without introducing alisasing artifacts.
-     - You will be able to convolve two 2-D sequences (e.g., images).
-     - You will appreciate that convolution can be used to highlight features in an image.
-     - You will appreciate that the joint probability distribution resulting from adding two random variables is the convolution of their individual probability distributions.
 
     </details>
 
@@ -211,7 +196,24 @@ Machine learning
 
 Modeling time series
 ---
-21. <details><summary>Apr 1 T - <a href="">Leaky integrate and fire (LIF) neuron</a></summary>
+21. <details><summary>Apr 1 T - <a href="">Data series and convolution</a></summary>
+
+     - You will appreciate that data points in sequences are correlated (unless pure noise) as opposed to independent random variables.
+     - You will be appreciate how undersampling can introduces aliasing artifacts in a sequence.
+     - You will be able to visualize the frequency power spectrum of a 1-D sequence.
+     - You will be able to visualize the frequency spectrogram of a 1-D sequence.
+     - You will understand why convolution describes a systems output based on its impulse response.
+     - You will be able to convolve two 1-D sequences.
+     - You will appreciate how convolution can be used to filter a sequence.
+     - You will be able to apply lowpass, highpass and bandpass finite impulse response (FIR) filters to a 1-D sequence.
+     - You will be able to properly downsample a 1-D sequence without introducing alisasing artifacts.
+     - You will be able to convolve two 2-D sequences (e.g., images).
+     - You will appreciate that convolution can be used to highlight features in an image.
+     - You will appreciate that the joint probability distribution resulting from adding two random variables is the convolution of their individual probability distributions.
+
+    </details>
+
+22. <details><summary>Apr 3 R - <a href="">Leaky integrate and fire (LIF) neuron</a></summary>
 
      - You will appreciate how a cell membrane can be approximated by a simple RC circuit.
       - You will understand the concept of the LIF neuron model.
@@ -220,16 +222,10 @@ Modeling time series
 
     </details>
 
-22. <details><summary>Apr 3 R - <a href="">LIF neuron with synaptic input</a></summary>
+23. <details><summary>Apr 8 T - <a href="">LIF neuron with synaptic input</a></summary>
 
      - You will be able to simulate stochastic synaptic input to a LIF neuron.
       - You will appreciate how convulation can be used to integrate synaptic inputs.
-
-    </details>
-
-23. <details><summary>Apr 8 T - <a href="">Hodgkin and Huxley neuron</a></summary>
-
-     - You will be able to simulate action potentials for a Hodgkin and Huxely neuron.
 
     </details>
 
@@ -279,7 +275,7 @@ Neural networks
 
 Exam
 ---
-29. <details><summary>May (as scheduled by the University) - <a href="">Final exam</a></summary>
+29. <details><summary>May 5 M @ 10:30-12:30 PM in WEL 1.316 - <a href="">Final exam</a></summary>
 
      - Cummulative exam for the entire semester, but will focus more on the topics covered after the midterm exam.
 
