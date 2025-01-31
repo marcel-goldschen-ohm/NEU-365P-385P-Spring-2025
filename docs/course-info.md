@@ -76,6 +76,9 @@ F: <60%
 ```
 Depending on the distribution of scores, I may alter the above ranges to normalize to the difficulty of the assignments. If I do so, **any alteration will only be favorable to you and never unfavorable**. Note that in the case that I do change the ranges, *I will NOT apply a curve to the letter grades*. **I am very happy to give everyone an A if possible.**
 
+### Late policy
+In general, late homework is not acceptable. I reserve the right to give zero credit for late assignments. If the assignment is just a little bit late, I may offer 50% credit. More than a day or two late is zero credit. If you have a mitigating situation, you need to talk to me about it.
+
 ## Grading Rubric
 Most questions will be worth 3 pts for which the grading rubric is:
 ```
