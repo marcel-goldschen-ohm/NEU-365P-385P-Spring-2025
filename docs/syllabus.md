@@ -2,7 +2,7 @@
 
 Python crash course
 ---
-1. <details><summary>Jan 14 T - <a href="">Intro and python basics 1</a></summary>
+1. <details><summary>Jan 14 T - <a href="rise-presentations/python-basics">Intro and python basics 1</a></summary>
 
      - You will get a brief overview of the course.
      - You will be able to use `conda` and `pip` to manage python environments.
@@ -11,7 +11,7 @@ Python crash course
 
     </details>
 
-2. <details><summary>Jan 16 R - <a href="">Python basics 2</a></summary>
+2. <details><summary>Jan 16 R - <a href="rise-presentations/python-basics">Python basics 2</a></summary>
 
      - You will understand some more basic python syntax.
 
@@ -21,7 +21,7 @@ Python crash course
 
     </details>
 
-4. <details><summary>Jan 23 R - <a href="">Python basics 3</a></summary>
+4. <details><summary>Jan 23 R - <a href="rise-presentations/python-basics">Python basics 3</a></summary>
 
      - You will understand all the basic python syntax needed to start using python for real projects.
 
