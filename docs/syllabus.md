@@ -29,7 +29,7 @@ Python crash course
 
 Working with data
 ---
-5. <details><summary>Jan 28 T - <a href="">Data arrays and plots</a></summary>
+5. <details><summary>Jan 28 T - <a href="../rise-presentations/data-arrays-and-visualization">Data arrays and plots</a></summary>
 
      - You will appreciate that many types of data can be represented as N-dimensional arrays.
      - You will understand how to work with `numpy` N-dimensional arrays.
@@ -39,7 +39,7 @@ Working with data
 
     </details>
 
-6. <details><summary>Jan 30 R - <a href="">Random walk lab</a></summary>
+6. <details><summary>Jan 30 R - <a href="../rise-presentations/random-walk-lab">Random walk lab</a></summary>
 
      - You will write a program to simulate random walks in various dimensions and with different types of boundaries.
 
