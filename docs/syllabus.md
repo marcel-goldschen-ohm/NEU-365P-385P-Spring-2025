@@ -45,7 +45,7 @@ Working with data
 
     </details>
 
-7. <details><summary>Feb 4 T - <a href="">Tabular datasets</a></summary>
+7. <details><summary>Feb 4 T - <a href="../rise-presentations/data-tables-and-visualization">Tabular datasets</a></summary>
 
      - You will be able to to work with tabular data sets using `pandas`.
      - You will be able to use `seaborn` and `hvplot` to create plots from a `pandas` dataframe.
@@ -55,7 +55,7 @@ Working with data
 
 Probability and random variation
 ---
-8. <details><summary>Feb 6 R - <a href="">Probability distributions</a></summary>
+8. <details><summary>Feb 6 R - <a href="../rise-presentations/probability-distributions">Probability distributions</a></summary>
 
      - You will understand the difference between a probability and a probability density.
      - You will understand how some basic probability distributions relate to distinct types of random behavior.
@@ -64,7 +64,7 @@ Probability and random variation
 
     </details>
 
-9. <details><summary>Feb 11 T - <a href="">Resampling</a></summary>
+9. <details><summary>Feb 11 T - <a href="../rise-presentations/resampling">Resampling</a></summary>
 
      - You will understand the difference between a population distribution and a sampling distributuion.
      - You will appreciate that statistics for different samples are likely to vary.
@@ -77,7 +77,7 @@ Probability and random variation
 
 Model optimization
 ---
-10. <details><summary>Feb 13 R - <a href="">Curve fitting and maximum likelihood estimation (MLE)</a></summary>
+10. <details><summary>Feb 13 R - <a href="../rise-presentations/optimization-and-maximum-likelihood">Curve fitting and maximum likelihood estimation (MLE)</a></summary>
 
      - You will be able to fit a function to data by minimizing the residuals.
      - You will be able to fit an arbitrary probability distribution to data by maximizing the loglikelihood.
@@ -88,7 +88,7 @@ Model optimization
 
 Exam
 ---
-11. <details><summary>Feb 18 T - <a href="">Midterm exam</a></summary>
+11. <details><summary>Feb 18 T - Midterm exam</summary>
 
      - Cummulative exam for all topics covered up to this point.
 
@@ -96,7 +96,7 @@ Exam
 
 Machine learning
 ---
-12. <details><summary>Feb 20 R - <a href="">Linear regression</a></summary>
+12. <details><summary>Feb 20 R - <a href="../rise-presentations/linear-regression">Linear regression</a></summary>
 
      - You will  be able to fit a line to X vs. Y data.
       - You will be able to fit a (hyper-)plane to {X0, X1, X2, ...} vs. Y data.
