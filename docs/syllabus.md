@@ -108,7 +108,7 @@ Machine learning
 
     </details>
 
-13. <details><summary>Feb 25 T - <a href="">Nonlinear regression</a></summary>
+13. <details><summary>Feb 25 T - <a href="../rise-presentations/nonlinear-regression">Nonlinear regression</a></summary>
 
      - You will be able to use a polynomial or K-nearest neighbors (KNN) model to explain the dependece of a target variable Y on feature variables {X}.
       - You will understand how polynomial regression can be recast as a simple linear regression.
@@ -116,7 +116,7 @@ Machine learning
 
     </details>
 
-14. <details><summary>Feb 27 R - <a href="">Cross validation</a></summary>
+14. <details><summary>Feb 27 R - <a href="../rise-presentations/cross-validation">Cross validation</a></summary>
 
      - You will be able to split your dataset up into training and testing sets.
       - You will understand the difference between training error and testing error.
