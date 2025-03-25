@@ -1,0 +1,64 @@
+/*  Custom Jupyter notebook markdown cell styling for
+    Programming and Data Analysis for Modern Neuroscience
+
+    e.g.,
+    strong {...} is for normal notebook view after running HTML cell that loads this CSS
+    .reveal strong {...} is for RISE reveal.js slideshow which automatically loads the file rise.css
+*/
+
+:root {
+    /* --jp-code-font-size: 20px; */
+    --UT_burnt_orange: rgb(191, 87, 0);
+    --UT_gray: rgb(51, 63, 72);
+    --split_complementary_blue: rgb(0, 127, 237);
+    --lighter_orange: rbg(254, 139, 61);
+    --darker_orange: rgb(130, 37, 0);
+}
+
+p, li, .reveal p, .reveal li {
+    color: var(--UT_gray);
+    font-size: 30px;
+}
+
+.alert, .reveal .alert {
+    font-size: 30px;
+}
+
+/*
+li:nth-child(even), .reveal li:nth-child(even) {
+    color: var(--darker_orange);
+}
+*/
+
+h1, h2, h3, h4, h5, h6, .reveal h1, .reveal h2, .reveal h3, .reveal h4, .reveal h5, .reveal h6 {
+    color: var(--UT_burnt_orange);
+    text-transform: none;
+}
+
+h1, .reveal h1 {
+    font-size: 60px;
+}
+
+h2, .reveal h2 {
+    font-size: 50px;
+}
+
+h3, .reveal h3 {
+    font-size: 40px;
+}
+
+strong, .reveal strong {
+    color: var(--split_complementary_blue);
+}
+
+em, .reveal em {
+    color: var(--UT_burnt_orange);
+}
+
+.lm-Widget.jp-RenderedText.jp-OutputArea-output pre {
+  font-size: 20px;
+}
+
+.rise-enabled .reveal .lm-Widget.jp-RenderedText.jp-OutputArea-output pre  {
+  font-size: 20px;
+}
