@@ -177,3 +177,5 @@ cython_debug/
 # PyPI configuration file
 .pypirc
 homework/python-basics-hwkey.ipynb
+rise-presentations/RNAseq-lab/data/brain_counts.csv
+rise-presentations/RNAseq-lab/data/brain_metadata.csv
